@@ -1,0 +1,30 @@
+2026-02-04 19:37:38,068 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-04 19:37:38,068 INFO: [33mPress CTRL+C to quit[0m
+2026-02-04 19:37:38,072 INFO:  * Restarting with stat
+2026-02-04 19:37:39,300 WARNING:  * Debugger is active!
+2026-02-04 19:37:39,311 INFO:  * Debugger PIN: 103-708-520
+2026-02-04 19:41:53,339 INFO: User register: sahil
+2026-02-04 19:41:53,340 INFO: 127.0.0.1 - - [04/Feb/2026 19:41:53] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-02-04 19:42:42,864 INFO: User login: sahil
+2026-02-04 19:42:42,864 INFO: 127.0.0.1 - - [04/Feb/2026 19:42:42] "POST /login HTTP/1.1" 200 -
+2026-02-04 19:45:55,716 INFO: Book added: Clean Code
+2026-02-04 19:45:55,717 INFO: 127.0.0.1 - - [04/Feb/2026 19:45:55] "[35m[1mPOST /books HTTP/1.1[0m" 201 -
+2026-02-04 19:46:12,532 INFO: 127.0.0.1 - - [04/Feb/2026 19:46:12] "GET /books HTTP/1.1" 200 -
+2026-02-04 19:48:33,809 INFO: Book added: Treasure Island
+2026-02-04 19:48:33,811 INFO: 127.0.0.1 - - [04/Feb/2026 19:48:33] "[35m[1mPOST /books HTTP/1.1[0m" 201 -
+2026-02-04 19:50:42,683 INFO: Book added: Gulliver's Travels
+2026-02-04 19:50:42,684 INFO: 127.0.0.1 - - [04/Feb/2026 19:50:42] "[35m[1mPOST /books HTTP/1.1[0m" 201 -
+2026-02-04 19:50:56,245 INFO: 127.0.0.1 - - [04/Feb/2026 19:50:56] "GET /books HTTP/1.1" 200 -
+2026-02-04 19:52:16,109 INFO: 127.0.0.1 - - [04/Feb/2026 19:52:16] "GET /books?search=Clean HTTP/1.1" 200 -
+2026-02-04 19:53:18,926 INFO: 127.0.0.1 - - [04/Feb/2026 19:53:18] "GET /books?page=1&limit=2 HTTP/1.1" 200 -
+2026-02-04 19:54:34,981 INFO: Book updated: Clean Code (updated) 
+2026-02-04 19:54:34,981 INFO: 127.0.0.1 - - [04/Feb/2026 19:54:34] "PUT /books/1 HTTP/1.1" 200 -
+2026-02-04 19:54:55,298 INFO: Book deleted: Clean Code (updated) 
+2026-02-04 19:54:55,299 INFO: 127.0.0.1 - - [04/Feb/2026 19:54:55] "DELETE /books/1 HTTP/1.1" 200 -
+2026-02-04 19:57:51,456 INFO: User register: mss
+2026-02-04 19:57:51,456 INFO: 127.0.0.1 - - [04/Feb/2026 19:57:51] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-02-04 19:58:36,027 INFO: User login: mss
+2026-02-04 19:58:36,027 INFO: 127.0.0.1 - - [04/Feb/2026 19:58:36] "POST /login HTTP/1.1" 200 -
+2026-02-04 20:02:54,625 INFO: 127.0.0.1 - - [04/Feb/2026 20:02:54] "[31m[1mPOST /books HTTP/1.1[0m" 403 -
+2026-02-04 20:03:23,460 INFO: 127.0.0.1 - - [04/Feb/2026 20:03:23] "GET /books HTTP/1.1" 200 -
